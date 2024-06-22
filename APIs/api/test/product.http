@@ -17,11 +17,13 @@ Content-Type: application/json
 
 GET http://localhost:8000/products
 Content-Type: application/json
+Authorization: Bearer <token>
 
 ###
 
 PUT http://localhost:8000/products/dcc42411-c5fe-4a8b-ab59-c1523a70dbf2
 Content-Type: application/json
+Authorization: Bearer <token>
 
 {
     "name": "My Product",
@@ -31,3 +33,4 @@ Content-Type: application/json
 ###
 DELETE http://localhost:8000/products/dcc42411-c5fe-4a8b-ab59-c1523a70dbf2
 Content-Type: application/json
+Authorization: Bearer <token>
